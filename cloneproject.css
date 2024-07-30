@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+    
+
+}
+/*optional code
+
+.navlogo{
+    height: 50px;
+    width: 113px;
+}*/
+.logo{
+    height:50px;
+    width: 113px;
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    border:1px solid transparent;
+    
+}
+
+.logo:hover{
+    border: 1px solid white;
+}
+
+/*adress-box styling*/
+.add-one{
+    color:#cccccc;
+    font-size:12px;
+    margin-left:15px;
+}
+.add-two{
+    color:#FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+
+}
+.nav-address:hover{
+    border: 1px solid white;
+    
+
+}
+/*search bar styling*/
+.nav-search{
+    display: flex;
+    align-items: inline-block;
+    width: 550px;
+    height:40px;
+    text-align: center;
+}
+.selectoption{
+    width: 51px;
+    height: 40px;
+    background-color: #E6E6E6;
+    color:#0F1111;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+   
+
+}
+
+.search-input{
+    height: 40px;
+    width: 440px;
+    font-size:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchicon{
+    height:40px;
+    width:45px;
+    background-color: rgb(249, 186, 104);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+    
+
+}
+.accountdetails{
+    height:50px;
+    width:130px;
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:1px solid transparent;
+}
+.accountdetails:hover{
+    border:1px solid white;
+    
+}
+#accountdetails1{
+    font-size:12px;
+}
+#accountdetails2{
+    font-size:14px;
+    font-weight: 700;
+
+}
+.returnsorders{
+    height:50px;
+    width:120px;
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:1px solid transparent;
+}
+.returnsorders:hover{
+    border:1px solid white;
+}
+
+#returns{
+    font-size: 12px;
+}
+#orders{
+    font-size: 14px;
+    font-weight: 700;
+    border:1px solid transparent;
+
+}
+#cart i{
+    font-size: 30px;
+
+   
+
+}
+#cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    height:50px;
+    width: 100px;
+}
+#cart:hover{
+
+    border:1px solid white;
+}
+
+/*panel*/
+
+.panel{
+    color:#FFFFFF;
+    background-color:#222f3d;
+    display: flex;
+    align-items: center;
+    
+
+}
+.panel-all{
+    height: 40px;
+    width: 58px;
+    color:#FFFFFF;
+    display:flex;
+    align-items:center;
+    border:1px solid transparent;
+    
+    
+
+}
+.panel-all:hover{
+    border:1px solid white;
+}
+
+.panel-opt{
+    display:flex;
+    width:80%;
+    justify-content: space-evenly;
+    
+    
+}
+.panel-opt *{
+    border:1px solid transparent;
+    
+}
+.panel-opt *:hover{
+    border:1px solid white;
+}
+
+.panel-prime{
+    margin-left:auto;
+    
+}
+
+.panel-prime:hover{
+    border:1px solid white;
+}
+
+.herosection{
+    height: 330px;
+    width:100%;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/EBDFeb/RevisedEBD/3000x1200_set1._CB581582491_.jpg);
+    background-size:cover;
+    
+    
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 20px;;
+
+}
+.section1{
+    height: 400px;
+    width:310px;
+    border:5px solid whitesmoke;
+    
+    
+}
+#text1{
+    font-size: 21px;
+    font-weight: 700;
+    color:#0F1111;
+    
+}
+#row1{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+}
+.pic1{
+   height:120px;
+   width:120px;
+   background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_furnishings_2._SY116_CB584596691_.jpg);
+   background-size: cover;
+    
+}
+.pic1container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic2container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic2{
+    height:120px;
+    width:120px;
+
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_decor_1._SY116_CB584596691_.jpg);
+    background-size: cover;
+}
+
+#row2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+.pic3{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_storage_1._SY116_CB584596691_.jpg);
+    background-size: cover;
+}
+.pic3container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic4container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic4{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_lighting_2._SY116_CB584596691_.jpg);
+    background-size: cover;
+}
+.endtext1{
+    font-size:13px;
+    color:#007185;
+    margin-top: 47px;
+    margin-left:10px;
+   
+    
+}
+.section2{
+    height:400px;
+    width:310px;
+    border:5px solid whitesmoke;
+}
+#text2{
+    font-size:21px;
+    font-weight:700;
+    color:#0F1111;
+    
+}
+#row3{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+    
+}
+.pic5{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg);
+    background-size:cover ;
+}
+
+.pic6{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg);
+    background-size:cover ;
+}
+.pic5container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}.pic6container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+#row4{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+}
+.pic7container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic8container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic7{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg);
+    background-size:cover ;
+}
+.pic8{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg);
+    background-size:cover ;
+}
+.endtext2{
+    color:#007185;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size:13px;
+}
+.section3{
+    height: 400px;
+    width:310px;
+    border: 5px solid whitesmoke;
+    
+}
+
+
+#text3{
+    font-size: 21px;
+    color:#0F1111;
+    font-family: 700;
+    
+}
+#row5{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+    
+    
+}
+.pic9container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+
+
+.pic9{
+   height:120px;
+   width:120px;
+   background-image: cover;
+   background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg);
+}
+.pic10container{
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+}
+
+.pic10{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg);
+    background-image: cover;
+}
+#row6{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+.pic11container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic12container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic11{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg);
+    background-image: cover;
+}
+.pic12{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg);
+    background-image: cover;
+}
+.endtext3{
+    color:#007185;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size:13px;
+}
+
+.section4{
+    height: 400px;
+    width:310px;
+    border:5px solid whitesmoke;
+    
+}
+#text4{
+    font-size: 21px;
+    color:#0F1111;
+    font-weight: 700;
+    
+}
+#row7{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+    
+    
+}
+
+.pic13{ 
+   height:120px;
+   width:120px;
+   background-image: cover;
+   background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg);
+}
+.pic14{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg);
+    background-image: cover;
+}
+.pic13container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic14container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+#row8{
+    display:flex;
+    justify-content:space-evenly;
+    
+    margin-top: 10px;
+}
+
+.pic15{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg);
+    background-image: cover;
+}
+.pic16{
+    height:120px;
+    width:120px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg);
+    background-image: cover;
+}
+.pic15container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.pic16container{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.endtext4{
+    color:#007185;
+    margin-top: 36px;
+    margin-left: 10px;
+    font-size:13px;
+}
+
+/**footer **/
+.footer0{
+    height: 100px;
+    width:100%;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container3{
+    padding:10px 20px;
+    margin-top: 20px;
+    width:100%;
+    height: 368px;
+
+}
+.ctext{
+    margin-top:20px;
+    display:flex;
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+}
+.cb1{
+    margin-top: 20px;
+    height:240px;
+    width:240px;
+    background-color:whitesmoke;
+    margin-left: 80px;
+}
+.b1{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 200px;
+    width:200px;
+    background-image: url('https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg');
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+    
+
+}
+.b1text{
+    margin-top: 30px;
+}
+.cb2{
+    margin-top: 20px;
+    height:240px;
+    width:240px;
+    background-color:whitesmoke;
+
+}
+.b2{
+    margin-top:10px;
+    margin-left:40px;
+    height:200px;
+    width:200px;
+    background-image: url('https://m.media-amazon.com/images/I/41Xe96WtZoL._AC_SY200_.jpg');
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+}
+.b2text{
+    margin-top: 30px;
+}
+.cb3{
+    margin-top: 20px;
+    height:240px;
+    width:240px;
+    background-color:whitesmoke;
+    margin-left: 80px;
+}
+.b3{
+    margin-top:10px;
+    margin-left: 40px;
+    height:200px;
+    width:200px;
+    background-image: url('https://m.media-amazon.com/images/I/41snmTn9mrL._AC_SY200_.jpg');
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+   
+}
+.b3text{
+    margin-top: 30px;
+}
+.cb4{
+    margin-top: 20px;
+    height:240px;
+    width:240px;
+    background-color:whitesmoke;
+    margin-right: 80px;
+}
+.b4{
+    margin-top:10px;
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+    background-image: url('https://m.media-amazon.com/images/I/41m-C1HHkIL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+    background-color:whitesmoke;
+}
+.b4text{
+    margin-top:30px;
+    
+}
+.c4text{
+    display:flex;
+}
+.container4{
+    margin-top:30px;
+    height:50px;
+    display:flex;
+    
+}
+.c4boxes{
+    display:flex;
+    justify-content: space-evenly;
+}
+.b41{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/81RqadIDyaL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.b42{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/71h5V4b5XDL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.b43{
+    height:220px;
+    width:110px;
+    background-image: url('data:image/webp;base64,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');
+    background-repeat: no-repeat;
+    background-image: cover;
+    margin-top: 20px;
+
+}
+.b44{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/91A6WmSzjlL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+    
+}
+.b45{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/71QmTMmaDwL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.b46{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/71Eee7gbrSL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.b47{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/71k60+aYjcL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+
+}
+.b48{
+    height:200px;
+    width:110px;
+    background-image: url('https://m.media-amazon.com/images/I/91bsYlQCPaL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.signin{
+    
+    height:28px;
+    width:230px;
+    color:black;
+    background-color: rgb(241, 181, 69);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footpanel1{
+    margin-top: 20px;
+    background-color:  #37475a;
+    color:white;
+    height:49px;
+    width:100%;
+    font-size:13px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.footpanel2{
+    height:300px;
+    width:100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ul{
+    margin-top: 20px;
+}
+p{
+    font-size: 16px;
+    color:#FFFFFF;
+    font-weight:700;
+
+}
+
+    
+ul a{
+    display:block;
+    font-size: 14px;
+    margin-top: 9px;
+    color:#DDDDDD;
+
+}
+.footpanel3{
+    height: 70px;
+    width:100%;
+    color:white;
+    border-top: 0.5px solid white;
+    background-color: #232F3E;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+   
+}
+.logo1{
+    background-image: url(amazon_logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 100px;
+   
+}
+.ficon{
+    padding-top:30px;
+    height:43px;
+    width: 113px;  
+    color:grey;
+    
+}
+.ficon:hover{
+    border: 0.1px solid #DDDDDD;
+}
+.footpanel4{
+    height:200px;
+    width:100%;
+    background-color: #131A22;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ul{
+    margin-top: 10px;
+}
+p{
+    font-size: 16px;
+    color:#FFFFFF;
+    font-weight:700;
+
+}
+
+    
+ul a{
+    display:block;
+    font-size: 14px;
+    color:#DDDDDD;
+
+}
+.footpanel5{
+    height:100px;
+    width: 100%;
+    background-color: #131A22;
+    color:white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
